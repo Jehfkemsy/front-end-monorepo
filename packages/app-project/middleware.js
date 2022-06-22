@@ -11,6 +11,7 @@ export function middleware(req, event) {
   if (pathname.startsWith('/assets')) {
     return
   }
+
   /*
     Bypass internal NextJS requests.
   */
